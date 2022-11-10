@@ -2,12 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "builds": [
-    { "src": "index.js", "use": "@now/node" }
-],
-"routes": [
-    { "src": "/(.*)", "dest": "index.js" }
-],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
