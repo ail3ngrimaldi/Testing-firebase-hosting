@@ -2,13 +2,13 @@
     "compilerOptions": {
       "target": "es6",
       "module": "CommonJS",
-      "outDir": "./public",
-      "rootDir": "./src",
+      "outDir": "api/src/public",
+      "rootDir": "api/src",
       "strict": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
      },
     
-    "include": ["src"]
+    "include": ["api/src"]
     }
